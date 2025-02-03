@@ -26,5 +26,96 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "CV_Quarto/resume_alexV3.html",
+    "href": "CV_Quarto/resume_alexV3.html",
+    "title": "My_Blog",
+    "section": "",
+    "text": "Summary: Data Scientist with graduate degree + 5 years of experience focusing on surveys, marketing, and causal inference\nLanguages: Python, R, SQL, Spark, Javascript (in this order)\n\n\nAnalyzed channel ad impact for latest Meta AI campaigns in Europe using python and advanced regression techniques.\nUsed on-platform experiment data and marketing campaign survey data; Keywords: diff-in-diff, funnel analysis, attribution. \n\n\n\nWorked on Meta, Google, and CVS account in data science capacity.\nLed team (3 DS) to build a bayesian multi-touch attribution (PYMC) product measuring effectiveness of ad campaigns on brand lift surveys. Outputing lift curves, channel contribution charts, and a simulation tool for client delivery.\nRegularly deliver advanced analytical studies (diff-in-diff, dominance analysis, time series, MTA). In total, delivered over 100 of these studies to clients including Google, Meta, CVS, Chickfila, and AT&T.\n\n\n\nDeveloped and automated wave-over-wave chi-squared tests on time series data in 17 tracker surveys of 5 countries\nOver 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables\n\n\n\nLed in modeling projects predicting election turnout for entire U.S. in 2022 analyzing over 460 million records.\nWrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS\n\n\nsurvey_tools - Creator and Maintainer of an open-source python package for survey researchers with convenient functions for weighted crosstabs, recoding variables, and weighting surveys. This package is available on github [here] and PyPI [here].\n\n\n\n\nEstimate daily a heirarchal bayesian beta regression model to generate probabilities of election outcomes using latest polls\nCreated a live data pipeline with Github Actions and Python &gt; Live Quarto Dashboard\n\n\nSolved entity resolution problem linking sparse wikipedia references to Internet Archive API Database References.\nImplemented model in Python which, given a wikipedia reference, will return a match in the Internet Archive Database along with a probability of matching.\n\n\nAwarded $1500; wrote, fielded, analyzed original survey research project with Prolific\nObservational study: answered research questions using multiple linear regression and multinomial logit regression."
+  },
+  {
+    "objectID": "CV_Quarto/resume_alex.html",
+    "href": "CV_Quarto/resume_alex.html",
+    "title": "My_Blog",
+    "section": "",
+    "text": "Languages and Tools - proficient: Python, R, Bash intermediate: Spark, SQL, Tensorflow/Keras, Git, Docker\nSelected Coursework - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python\n\n\nDelivered 30+ advanced analytical studies (MTA, drivers analysis, diff-in-diff) to high profile clients including 15+ to marketing teams at Google and Meta\nBuilt diff-in-diff and multi-touch attribution model codebase in Python(OOP) for Ad Data Science Team. This codebase has saved 100+ hours and brought over in $2 million in revenue to date\n\n\n\nSolved entity resolution problem with Gradient Boosted Trees linking sparse wikipedia references to Internet Archive Database References\nImplemented model in Python which, given a wikipedia reference, will return a match in the Internet Archive Database along with a probability of matching.\n\n\n\nDeveloped and automated wave-over-wave statistical tests on time series data in 17 tracker surveys of 5 countries\nLed project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists)\nOver 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables\n\n\n\nLed in modeling projects predicting election turnout for entire U.S. in 2022, phone response rates, etc.\nWrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS\nUsing R Shiny, built a codeless-crosstab tool for company’s research team\n\n\n\nDesigned and executed multiple survey experiments in original research projects\nMentored 60+ students in solving econometrics problems in weekly office hours\nVisualized data using R creating 50+ informative figures for AFS official report , news outlets, and professor’s projects\n\n\n\nCompared and estimated several Bayesian Regression models with PYMC3 in Python. Ultimately, used hierarchal negative binomial model to predict shootings and make inferences about gun laws\n\n\n\nrecieved award from Political Science department to fund a panel survey (n=1000).\nestimated linear regression and multinomial logit in observational study context and wrote paper"
+  },
+  {
+    "objectID": "CV_Quarto/resume_alexV2.html",
+    "href": "CV_Quarto/resume_alexV2.html",
+    "title": "My_Blog",
+    "section": "",
+    "text": "Worked on Meta’s marketing decision science team using causal inference methods. \n\n\n\nLed team (3 DS) to build a bayesian multi-touch attribution (PYMC) product measuring effectiveness of ad campaigns on brand lift surveys. Outputing lift curves, channel contribution charts, and a simulation tool for client delivery.\nRegularly deliver advanced analytical studies (diff-in-diff, dominance analysis, time series, MTA). In total, delivered over 100 of these studies to clients including Google, Meta, CVS, Chickfila, and AT&T.\n\n\n\nDeveloped and automated wave-over-wave chi-squared tests on time series data in 17 tracker surveys of 5 countries\nOver 300+ requests, pulled data from API or large database into R, wrangled data using R, and output figures and tables\nLed project to build a Python Web Bot (Selenium) to automate generation of test cases in surveys, contributed this to data science code base (used by 60+ data scientists)\n\n\n\nLed in modeling projects predicting election turnout for entire U.S. in 2022 analyzing over 460 million records.\nWrangled, cleaned, weighted, or made presentations for 60+ survey datasets with R, SQL, and AWS\nUsing R Shiny, built a codeless-crosstab tool for company’s research team\n\n\nsurvey_tools - Creator and Maintainer of an open-source Python package with convenient functions for creating weighted crosstabs, recoding variables, and weighting surveys. This package is available through pip and PyPI.\n\nLanguages and Tools - proficient: Python, R, Bash intermediate: Spark, SQL, Tensorflow/Keras, Git, Docker\nSelected Coursework - Deep Learning, Bayesian Machine Learning, Big Data Systems with Spark, Linear Models for Data Science, Statistical Learning, Data Engineering, Linear Algebra, Econometrics I & II, Data Visualization, Programming in Python\n\n\nEstimate daily a heirarchal bayesian regression model to generate probabilities of election outcomes using latest polls\nCreated a live data pipeline with Github Actions and Python &gt; Live Quarto Dashboard\n\n\nAwarded $1500; wrote, fielded, analyzed original survey research project with Prolific\nObservational study: answered research questions using multiple linear regression and multinomial logit regression."
+  },
+  {
+    "objectID": "Resume 2025.html",
+    "href": "Resume 2025.html",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "SOFTWARE SKILLS\n\nR (Dplyr, Ggplot2, Tidyr)\n\nMicrosoft Excel (Pivot Tables, Vlookup)\nSAS (IMPORT, MEANS, UNIVARIATE)\n\nPython (Matplotlib, NumPy, Pandas)\n\nTableau (Report Presentations and Data)\n\nSQL (SELECT, FROM, JOIN, DELETE)\n\nPROFICIENCIES\nAnalytical: Quantitative Analysis, Problem Solving, Data Visualization, Attention to Detail\nInterpersonal: Time Management, Team Collaboration, Adaptability, Communication, Project Management\n\nEDUCATION\n\n\n\nBachelor’s in Statistics and Data Analytics and Minor in Mathematics                                                               \n\nDean’s List Spring 2024\n\nGlobal Career Accelerator Participant Spring 2025\n\nLive Excel and Tableau Training\n\n\n\nWORK EXPERIENCE\n\n\n\n\nCommunication: Effectively communicate with pet owners by clearly explaining treatment plans, post-operative care instructions, and medication protocol\n\nTeamwork: Collaborate with veterinarians and veterinary technicians to ensure seamless communication and understanding of each patient’s condition and care requirements\n\nMedical Procedure Assistance: Support veterinarians during exams, surgeries, and procedures by preparing instruments, gently restraining animals, and administering medications\n\nPatient Care Management: Assist veterinarians in providing compassionate care to animal patients, ensuring their comfort and well-being\n\n\nREFERENCES\nDr. Erin Blankenship - UNL Statistics and Probability Professor (402) 472-7398 | erin.blankenship@unl.edu\nDr. Susan VanderPlas - UNL Statistics Computing and Graphics (402) 472-7290 | susan.vanderplas@unl.edu\nDr. Ryan Koch - York Animal Clinic Veterinarian (402) 366-3798 | rjkoch99@gmail.com"
+  },
+  {
+    "objectID": "Resume 2025.html#section",
+    "href": "Resume 2025.html#section",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "SOFTWARE SKILLS\n\nR (Dplyr, Ggplot2, Tidyr)\n\nMicrosoft Excel (Pivot Tables, Vlookup)\nSAS (IMPORT, MEANS, UNIVARIATE)\n\nPython (Matplotlib, NumPy, Pandas)\n\nTableau (Report Presentations and Data)\n\nSQL (SELECT, FROM, JOIN, DELETE)\n\nPROFICIENCIES\nAnalytical: Quantitative Analysis, Problem Solving, Data Visualization, Attention to Detail\nInterpersonal: Time Management, Team Collaboration, Adaptability, Communication, Project Management\n\nEDUCATION"
+  },
+  {
+    "objectID": "Resume 2025.html#university-of-nebraska-lincoln-lincoln-ne-cumulative-gpa-3.5-aug-2021---dec-2025",
+    "href": "Resume 2025.html#university-of-nebraska-lincoln-lincoln-ne-cumulative-gpa-3.5-aug-2021---dec-2025",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "Bachelor’s in Statistics and Data Analytics and Minor in Mathematics                                                               \n\nDean’s List Spring 2024\n\nGlobal Career Accelerator Participant Spring 2025\n\nLive Excel and Tableau Training\n\n\n\nWORK EXPERIENCE"
+  },
+  {
+    "objectID": "Resume 2025.html#york-animal-clinic-york-ne-68467-assistant-veterinary-technician-may-2018---present",
+    "href": "Resume 2025.html#york-animal-clinic-york-ne-68467-assistant-veterinary-technician-may-2018---present",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "Communication: Effectively communicate with pet owners by clearly explaining treatment plans, post-operative care instructions, and medication protocol\n\nTeamwork: Collaborate with veterinarians and veterinary technicians to ensure seamless communication and understanding of each patient’s condition and care requirements\n\nMedical Procedure Assistance: Support veterinarians during exams, surgeries, and procedures by preparing instruments, gently restraining animals, and administering medications\n\nPatient Care Management: Assist veterinarians in providing compassionate care to animal patients, ensuring their comfort and well-being\n\n\nREFERENCES\nDr. Erin Blankenship - UNL Statistics and Probability Professor (402) 472-7398 | erin.blankenship@unl.edu\nDr. Susan VanderPlas - UNL Statistics Computing and Graphics (402) 472-7290 | susan.vanderplas@unl.edu\nDr. Ryan Koch - York Animal Clinic Veterinarian (402) 366-3798 | rjkoch99@gmail.com"
+  },
+  {
+    "objectID": "docs/Resume2025.html",
+    "href": "docs/Resume2025.html",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "SOFTWARE SKILLS\n\nR (Dplyr, Ggplot2, Tidyr)\n\nMicrosoft Excel (Pivot Tables, Vlookup)\nSAS (IMPORT, MEANS, UNIVARIATE)\n\nPython (Matplotlib, NumPy, Pandas)\n\nTableau (Report Presentations and Data)\n\nSQL (SELECT, FROM, JOIN, DELETE)\n\nPROFICIENCIES\nAnalytical: Quantitative Analysis, Problem Solving, Data Visualization, Attention to Detail\nInterpersonal: Time Management, Team Collaboration, Adaptability, Communication, Project Management\n\nEDUCATION\n\n\n\nBachelor’s in Statistics and Data Analytics and Minor in Mathematics                                                               \n\nDean’s List Spring 2024\n\nGlobal Career Accelerator Participant Spring 2025\n\nLive Excel and Tableau Training\n\n\n\nWORK EXPERIENCE\n\n\n\n\nCommunication: Effectively communicate with pet owners by clearly explaining treatment plans, post-operative care instructions, and medication protocol\n\nTeamwork: Collaborate with veterinarians and veterinary technicians to ensure seamless communication and understanding of each patient’s condition and care requirements\n\nMedical Procedure Assistance: Support veterinarians during exams, surgeries, and procedures by preparing instruments, gently restraining animals, and administering medications\n\nPatient Care Management: Assist veterinarians in providing compassionate care to animal patients, ensuring their comfort and well-being\n\n\nREFERENCES\nDr. Erin Blankenship - UNL Statistics and Probability Professor (402) 472-7398 | erin.blankenship@unl.edu\nDr. Susan VanderPlas - UNL Statistics Computing and Graphics (402) 472-7290 | susan.vanderplas@unl.edu\nDr. Ryan Koch - York Animal Clinic Veterinarian (402) 366-3798 | rjkoch99@gmail.com"
+  },
+  {
+    "objectID": "docs/Resume2025.html#section",
+    "href": "docs/Resume2025.html#section",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "SOFTWARE SKILLS\n\nR (Dplyr, Ggplot2, Tidyr)\n\nMicrosoft Excel (Pivot Tables, Vlookup)\nSAS (IMPORT, MEANS, UNIVARIATE)\n\nPython (Matplotlib, NumPy, Pandas)\n\nTableau (Report Presentations and Data)\n\nSQL (SELECT, FROM, JOIN, DELETE)\n\nPROFICIENCIES\nAnalytical: Quantitative Analysis, Problem Solving, Data Visualization, Attention to Detail\nInterpersonal: Time Management, Team Collaboration, Adaptability, Communication, Project Management\n\nEDUCATION"
+  },
+  {
+    "objectID": "docs/Resume2025.html#university-of-nebraska-lincoln-lincoln-ne-cumulative-gpa-3.5-aug-2021---dec-2025",
+    "href": "docs/Resume2025.html#university-of-nebraska-lincoln-lincoln-ne-cumulative-gpa-3.5-aug-2021---dec-2025",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "Bachelor’s in Statistics and Data Analytics and Minor in Mathematics                                                               \n\nDean’s List Spring 2024\n\nGlobal Career Accelerator Participant Spring 2025\n\nLive Excel and Tableau Training\n\n\n\nWORK EXPERIENCE"
+  },
+  {
+    "objectID": "docs/Resume2025.html#york-animal-clinic-york-ne-68467-assistant-veterinary-technician-may-2018---present",
+    "href": "docs/Resume2025.html#york-animal-clinic-york-ne-68467-assistant-veterinary-technician-may-2018---present",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "Communication: Effectively communicate with pet owners by clearly explaining treatment plans, post-operative care instructions, and medication protocol\n\nTeamwork: Collaborate with veterinarians and veterinary technicians to ensure seamless communication and understanding of each patient’s condition and care requirements\n\nMedical Procedure Assistance: Support veterinarians during exams, surgeries, and procedures by preparing instruments, gently restraining animals, and administering medications\n\nPatient Care Management: Assist veterinarians in providing compassionate care to animal patients, ensuring their comfort and well-being\n\n\nREFERENCES\nDr. Erin Blankenship - UNL Statistics and Probability Professor (402) 472-7398 | erin.blankenship@unl.edu\nDr. Susan VanderPlas - UNL Statistics Computing and Graphics (402) 472-7290 | susan.vanderplas@unl.edu\nDr. Ryan Koch - York Animal Clinic Veterinarian (402) 366-3798 | rjkoch99@gmail.com"
+  },
+  {
+    "objectID": "docs/Resume2025.html#jrodriguezb44gmail.com-lincoln-ne-68467",
+    "href": "docs/Resume2025.html#jrodriguezb44gmail.com-lincoln-ne-68467",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "SOFTWARE SKILLS\n\nR (Dplyr, Ggplot2, Tidyr)\n\nMicrosoft Excel (Pivot Tables, Vlookup)\nSAS (IMPORT, MEANS, UNIVARIATE)\n\nPython (Matplotlib, NumPy, Pandas)\n\nTableau (Report Presentations and Data)\n\nSQL (SELECT, FROM, JOIN, DELETE)\n\nPROFICIENCIES\nAnalytical: Quantitative Analysis, Problem Solving, Data Visualization, Attention to Detail\nInterpersonal: Time Management, Team Collaboration, Adaptability, Communication, Project Management\n\nEDUCATION"
+  },
+  {
+    "objectID": "docs/Cover Letter.html",
+    "href": "docs/Cover Letter.html",
+    "title": "My_Blog",
+    "section": "",
+    "text": "Jesus Rodriguez\n1710 Arbor Drive\nLincoln, NE 68503\nJanuary 28, 2025\nSophie Chen\nGlint Tech Solutions Recruiter\n3120 Southwest Fwy Ste 101 PMB 220552\nHouston, TX, 77098\nDear Sophie Chen,\nI am writing to express my interest in working as a Data Analyst at Glint Tech. I’ll be graduating from the University of Nebraska-Lincoln with a Bachelor’s in Statistics and Data Analytics and a Minor in Mathematics in December, 2025. With a strong background in quantitative analysis and a proficiency in various analytical tools, I am enthusiastic about contributing to your team’s data-driven decision-making processes.\nThis Data Analyst role aligns perfectly with my career aspirations to become a biostatistician. I believe this role will provide invaluable experience in data analysis and visualization, crucial for advancing in my field. I take great pride in my analytical and statistical computing skills in R, Python, SAS, and Excel.\nWhile much of my professional work has been in a veterinary clinic, I am confident that my team collaboration skills and diligent work ethic will seamlessly transition to this new environment. My analytical mindset, technical proficiency, and dedication and pride to work hard would make me a valuable asset to your team.\nI look forward to the opportunity to discuss how my background and skills align with the needs of Glint Tech Solutions. I’ll be available at 402-710-9598 or at jrodriguezb44@gmail.com. Thank you for considering my application.\nSincerely,\nJesus Rodriguez"
   }
 ]
