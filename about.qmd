@@ -21,4 +21,4 @@ about:
       href: https://github.com
 ---
 
-About this blog
+About this blog. This is my blog.
