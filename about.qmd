@@ -6,10 +6,10 @@ about:
   links:
     - icon: person-info
       text: CV
-      href: docs/Resume2025.md
+      href: Resume2025.md
     - icon: person-info
       text: Cover Letter
-      href: docs/Cover Letter.md
+      href: Cover Letter.md
     - icon: twitter
       text: Twitter
       href: https://twitter.com
