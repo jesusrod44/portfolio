@@ -13,7 +13,7 @@ Dear Sophie Chen,
 
 I am writing to express my interest in working as a Data Analyst at Glint Tech. I’ll be graduating from the University of Nebraska-Lincoln with a Bachelor's in Statistics and Data Analytics and a Minor in Mathematics in December, 2025. With a strong background in quantitative analysis and a proficiency in various analytical tools, I am enthusiastic about contributing to your team's data-driven decision-making processes.
 
-This Data Analyst role aligns perfectly with my career aspirations to become a biostatistician. I believe this role will provide invaluable experience in data analysis and visualization, crucial for advancing in my field. I take great pride in my analytical and statistical computing skills in R, Python, SAS, and Excel. 
+This Data Analyst role aligns perfectly with my career aspirations to become a biostatistician. I believe this role will provide invaluable experience in data analysis and visualization, crucial for advancing in my field. I take great pride in my analytical and statistical computing skills in R, Python, SAS, and Excel.
 
 While much of my professional work has been in a veterinary clinic, I am confident that my team collaboration skills and diligent work ethic will seamlessly transition to this new environment. My analytical mindset, technical proficiency, and dedication and pride to work hard would make me a valuable asset to your team.
 
