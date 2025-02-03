@@ -7,6 +7,12 @@ website:
   navbar:
     right:
       - about.qmd
+      - icon: person-info
+        text: CV
+        href: Resume2025.md
+      - icon: person-info
+        text: Cover Letter
+        href: Cover Letter.md     
       - icon: github
         href: https://github.com/
       - icon: twitter
