@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "My_Blog"
+  title: "Jesus Rodriguez"
   navbar:
     right:
       - about.qmd
@@ -14,9 +14,7 @@ website:
         text: Cover Letter
         href: Cover Letter.md     
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/jesusrod44/portfolio
 format:
   html:
     theme: cosmo

@@ -10,15 +10,12 @@ about:
     - icon: person-info
       text: Cover Letter
       href: Cover Letter.md
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/jesusrod44/portfolio
 ---
 
 About this blog. This is my blog.
