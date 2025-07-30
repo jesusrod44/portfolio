@@ -6,4 +6,4 @@ format: html
 
 # My Contributions to Better Treat Burn Survivors with Dr. Celsete Finnerty PhD.
 
-In the summer of 2025, I had the amazing opprotunity to be an intern as a research assistant for the Summer Institute of Biostatistics and Data Science at the University of Texas-Medical Branch. 
+In the summer of 2025, I had the amazing opprotunity to be an intern as a research assistant for the Summer Institute of Biostatistics and Data Science at the University of Texas-Medical Branch.
