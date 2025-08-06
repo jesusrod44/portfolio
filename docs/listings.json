@@ -1,10 +1,14 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/tidy_tuesday.html",
     "items": [
-      "/posts/Sharknado! Probability Assessment/Untitled.html",
-      "/posts/SIBDS Research Assistant Project/Burn Project.html",
-      "/posts/User Guide on Plotting Spatial Data/Untitled.html",
+      "/tidy_tuesday/post-with-code/index.html",
+      "/tidy_tuesday/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
     ]

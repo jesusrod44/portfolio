@@ -1,12 +1,20 @@
 ---
-title: "Homepage"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: grid
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Jesus Rodriguez"
+image: images/jesus_rodriguez_picture.jpg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
+    - icon: github
+      text: Github
+      href: https://github.com/jesusrod44/portfolio
+    - icon: envelope
+      text: Contact me
+      href: mailto:jrodriguezb44@gmail.com
 ---
+
+I am a Senior at UNL graduating in December of 2025 with a Bachelor's Degree in Statistics and Data Analytics and a Minor in Mathematics. As an aspiring Biostatistician, I am passionate about turning data into actionable insights to drive informed decision-making. I love finding a way to easily clean or export data in order to prepare it for analysis!
+
+I love to perform analysis in R, SAS, Python, and Excel, but I am also eager to expand my data analysis skills and knowledge so I can push myself to assist the best way I can. My collaborative experience has equipped me to thrive in diverse team settings, and I am excited to apply my technical abilities and problem-solving mindset to create impactful data solutions within a dynamic, adaptable team.

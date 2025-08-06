@@ -4,15 +4,23 @@ project:
 
 website:
   title: "Jesus Rodriguez"
+  favicon: "images/jesus_rodriguez_picture.jpg"
+
   navbar:
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Posts
+        href: posts.qmd
+      - text: Tidy Tuesday
+        href: tidy_tuesday.qmd
+      - text: Resume
+        href: resume.qmd
     right:
-      - about.qmd
-      - icon: person-info
-        text: CV
-        href: Resume2025.md
-      - icon: person-info
-        text: Cover Letter
-        href: Cover Letter.md     
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
       - icon: github
         href: https://github.com/jesusrod44/portfolio
 format:
