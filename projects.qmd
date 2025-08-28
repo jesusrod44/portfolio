@@ -1,6 +1,6 @@
 ## University of Texas-Medical Branch Internship Burn Survivor Prevalence Analysis
 
-::: columns
+:::::: columns
 ::: {.column width="55%"}
 During my internship at UTMB's Summer Institute of Biostatistics and Data Science, I worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.
 
@@ -11,13 +11,13 @@ During my internship at UTMB's Summer Institute of Biostatistics and Data Scienc
 :::
 
 ::: {.column width="40%"}
-![](images/UTMB Poster.jpg)
+![](images/UTMB%20Poster.jpg)
 :::
-:::
+::::::
 
 ## (Over)Analysis of Imminent Sharknados
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](images/EF4_histogram.jpg)
 :::
@@ -26,44 +26,58 @@ During my internship at UTMB's Summer Institute of Biostatistics and Data Scienc
 :::
 
 ::: {.column width="55%"}
-Have you ever been worried about massive tornadoes carrying sharks through your coastal town? I analyzed tornado data from The National Oceanic and Atmospheric Association's National Center for Environmental Information (NOAA's NCEI), shark population from NOAA's Southeast Fisheries Science Center (NOAA's SEFSC), the Pacific Islands Ocean Observing System (PAIOOS), and California's Department of Fish and Wildlife, as well as spatial coastal data from the United States Geological Survey (USGS) to determine how likely such an event would occur. 
+Have you ever been worried about massive tornadoes carrying sharks through your coastal town? I analyzed tornado data from The National Oceanic and Atmospheric Association's National Center for Environmental Information (NOAA's NCEI), shark population from NOAA's Southeast Fisheries Science Center (NOAA's SEFSC), the Pacific Islands Ocean Observing System (PAIOOS), and California's Department of Fish and Wildlife, as well as spatial coastal data from the United States Geological Survey (USGS) to determine how likely such an event would occur.
 
-[From start to finish: my method and final results (Also Coming Soon!) ](https://medium.com/data-science-at-microsoft/collaborating-between-python-and-r-using-reticulate-25246b367957){target="_blank"}
+[From start to finish: my method and final results (Also Coming Soon!)](https://medium.com/data-science-at-microsoft/collaborating-between-python-and-r-using-reticulate-25246b367957){target="_blank"}
 :::
-:::
+::::::
 
 <!-- ## Data visualizations - Animation and Interactivity using Gganimate and Plotly -->
 
 <!-- ::: columns -->
+
 <!-- ::: {.column width="55%"} -->
+
 <!-- Animation brings in a key component of analysis where the third parameter you want to animate is not directly visible in your plot. Sometimes it can tell a powerful story and sometimes it can just add some flair to an otherwise low-key story. -->
 
 <!-- This blog goes through examples and code to show how easy it is to use gganimate and plotly packages to animate your data visualizations and make them interactive.... [Continue reading](https://deepshamenghani.github.io/gganimate_and_plotly/){target="_blank"} -->
+
 <!-- ::: -->
 
 <!-- ::: {.column width="5%"} -->
+
 <!-- ::: -->
 
 <!-- ::: {.column width="40%"} -->
+
 <!-- ![](images/usa_population_map_animated.gif) -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ## Sales forecasting and anomaly detection Shiny dashboard -->
 
 <!-- ::: columns -->
+
 <!-- ::: {.column width="40%"} -->
+
 <!-- ![](images/Sales_Dashboard_shiny_flex.jpg) -->
+
 <!-- ::: -->
 
 <!-- ::: {.column width="5%"} -->
+
 <!-- ::: -->
 
 <!-- ::: {.column width="55%"} -->
+
 <!-- This dashboard, built with Shiny Flex capability, looks at data from EverythingYouWillNeed.com website (***fake data***) to report out odaily product sales. You can select the product, the dates to analyze and click on apply to replicate the report, check sales forecast and anomalies for the specific product choice. -->
 
 <!-- Giving your stakeholders the ability to play with product grain forecast and anomaly detection is a great was to get them on-board prior to deploying any model at scale. This Shiny dashboard was built specifically for that purpose.... [Link to play with the Shiny dashboard](https://hzon6a-deepsha-menghani.shinyapps.io/Sales_forecast_anomalies/){target="_blank"} -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 <!-- ## Medium blog - Moving from interesting to actionable analysis -->
