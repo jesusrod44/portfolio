@@ -8,7 +8,7 @@ website:
 
   navbar:
     left: 
-      - text: Home
+      - text: About Me
         href: index.qmd
       - text: Projects
         href: projects.qmd
@@ -17,7 +17,7 @@ website:
       - text: Tidy Tuesday
         href: tidy_tuesday.qmd
       - text: Resume
-        href: resume.qmd
+        href: images/Jesus_Rodriguez_New_Resume.pdf
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
