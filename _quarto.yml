@@ -17,7 +17,7 @@ website:
       - text: Tidy Tuesday
         href: tidy_tuesday.qmd
       - text: Resume
-        href: images/Jesus_Rodriguez_New_Resume.pdf
+        href: files/Jesus_Rodriguez_New_Resume.pdf
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
