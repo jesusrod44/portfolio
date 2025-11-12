@@ -12,12 +12,12 @@ website:
         href: index.qmd
       - text: Projects
         href: projects.qmd
-      - text: Posts
-        href: posts.qmd
-      - text: Tidy Tuesday
-        href: tidy_tuesday.qmd
+      # - text: Posts
+      #   href: posts.qmd
+      # - text: Tidy Tuesday
+      #   href: tidy_tuesday.qmd
       - text: Resume
-        href: files/Jesus_Rodriguez_New_Resume.pdf
+        href: files/Jesus_Rodriguez_graduate_school_resume.pdf
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
