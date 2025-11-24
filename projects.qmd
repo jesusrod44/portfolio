@@ -28,11 +28,13 @@ During my internship at UTMB's Summer Institute of Biostatistics and Data Scienc
 ::: {.column width="55%"}
 Have you ever been worried about massive tornadoes carrying sharks through your coastal town? I analyzed tornado data from The National Oceanic and Atmospheric Association's National Center for Environmental Information (NOAA's NCEI), shark population from NOAA's Southeast Fisheries Science Center (NOAA's SEFSC), the Pacific Islands Ocean Observing System (PAIOOS), and California's Department of Fish and Wildlife, as well as spatial coastal data from the United States Geological Survey (USGS) to determine how likely such an event would occur.
 
-[From start to finish: my method and final results (Also Coming Soon!)](https://medium.com/data-science-at-microsoft/collaborating-between-python-and-r-using-reticulate-25246b367957){target="_blank"}
+[From start to finish: my method, final results, charts, and conclusions in detail!](files/sharknados.pdf){target="_blank"}
 :::
 ::::::
 
 <!-- ## Data visualizations - Animation and Interactivity using Gganimate and Plotly -->
+
+<!-- [From start to finish: my method and final results (Also Coming Soon!)](https://medium.com/data-science-at-microsoft/collaborating-between-python-and-r-using-reticulate-25246b367957){target="_blank"} -->
 
 <!-- ::: columns -->
 
