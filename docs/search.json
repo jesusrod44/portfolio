@@ -14,25 +14,18 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Jesus Rodriguez",
-    "section": "",
-    "text": "During my internship at UTMB’s Summer Institute of Biostatistics and Data Science, I worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.\nCheck out our article on it! (Coming Soon!)"
-  },
-  {
     "objectID": "projects.html#university-of-texas-medical-branch-internship-burn-survivor-prevalence-analysis",
     "href": "projects.html#university-of-texas-medical-branch-internship-burn-survivor-prevalence-analysis",
     "title": "Jesus Rodriguez",
-    "section": "",
-    "text": "During my internship at UTMB’s Summer Institute of Biostatistics and Data Science, I worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.\nCheck out our article on it! (Coming Soon!)"
+    "section": "University of Texas-Medical Branch Internship Burn Survivor Prevalence Analysis",
+    "text": "University of Texas-Medical Branch Internship Burn Survivor Prevalence Analysis\n\n\nDuring my internship at UTMB’s Summer Institute of Biostatistics and Data Science, I collaborated with fellow intern Thomas Duong and worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.\n\n\n\n\n\n\nUTMB poster"
   },
   {
     "objectID": "projects.html#overanalysis-of-imminent-sharknados",
     "href": "projects.html#overanalysis-of-imminent-sharknados",
     "title": "Jesus Rodriguez",
     "section": "(Over)Analysis of Imminent Sharknados",
-    "text": "(Over)Analysis of Imminent Sharknados\n\n\n\n\n\n\nHave you ever been worried about massive tornadoes carrying sharks through your coastal town? I analyzed tornado data from The National Oceanic and Atmospheric Association’s National Center for Environmental Information (NOAA’s NCEI), shark population from NOAA’s Southeast Fisheries Science Center (NOAA’s SEFSC), the Pacific Islands Ocean Observing System (PAIOOS), and California’s Department of Fish and Wildlife, as well as spatial coastal data from the United States Geological Survey (USGS) to determine how likely such an event would occur.\nFrom start to finish: my method, final results, charts, and conclusions in detail!"
+    "text": "(Over)Analysis of Imminent Sharknados\n\n\n\n\n\nHistogram showcasing bootstrapped proportion of category EF4 torandoes forming near the coast\n\n\n\n\n\nHave you ever been worried about massive tornadoes carrying sharks through your coastal town? I analyzed tornado data from The National Oceanic and Atmospheric Association’s National Center for Environmental Information (NOAA’s NCEI), shark population from NOAA’s Southeast Fisheries Science Center (NOAA’s SEFSC), the Pacific Islands Ocean Observing System (PAIOOS), and California’s Department of Fish and Wildlife, as well as spatial coastal data from the United States Geological Survey (USGS) to determine how likely such an event would occur.\nFrom start to finish: my method, final results, charts, and conclusions in detail!"
   },
   {
     "objectID": "posts/welcome/index.html",
