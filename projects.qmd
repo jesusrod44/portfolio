@@ -4,7 +4,8 @@
 ::: {.column width="55%"}
 During my internship at UTMB's Summer Institute of Biostatistics and Data Science, I worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.
 
-[Check out our article on it! (Coming Soon!)](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"}
+Check out our article on it! (Coming Soon!)
+
 :::
 
 ::: {.column width="5%"}
@@ -33,6 +34,8 @@ Have you ever been worried about massive tornadoes carrying sharks through your 
 ::::::
 
 <!-- ## Data visualizations - Animation and Interactivity using Gganimate and Plotly -->
+
+<!-- [Check out our article on it! (Coming Soon!)](https://hzon6a-deepsha-menghani.shinyapps.io/biodiversity_shiny_dashboard/){target="_blank"} -->
 
 <!-- [From start to finish: my method and final results (Also Coming Soon!)](https://medium.com/data-science-at-microsoft/collaborating-between-python-and-r-using-reticulate-25246b367957){target="_blank"} -->
 
