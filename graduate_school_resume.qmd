@@ -173,7 +173,9 @@ York, NE
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Biostatistics and Data Science Summer Intern}\end{flushleft}
+    \begin{flushleft}
+  \textit{\href{https://youtu.be/dCCRvg9enWI}{Biostatistics and Data Science Summer Intern}}
+  \end{flushleft}
     \begin{flushright}Galveston, TX\end{flushright}\end
   {multicols}
 \end{large}
@@ -309,7 +311,6 @@ York, NE
 
 \vspace{3pt}
 
-
 <!-- SELECETED PROJECTS : 3rd BULLET -->
 
 \begin{large}
@@ -325,12 +326,10 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
-
 -   **Analysis in R, Research Report, Presentation:**
     -   Scraped tornado weather data, shark population data, as well as spatial coastal data from online sources to determine how likely a "sharknado" would occur
     -   Recorded methods and results in Quarto to document findings, visualizations, and assumptions
     -   Composed a \href{https://jesusrod44.github.io/portfolio/files/sharknado_presentation.pdf}{presentation} to address conclusions of the analysis
-
 
 \vspace{3pt}
 
@@ -406,5 +405,3 @@ York, NE
 -   **Differential Equations -** Solved and interpreted ordinary differential equations
 
 \vspace{3pt}
-
-
