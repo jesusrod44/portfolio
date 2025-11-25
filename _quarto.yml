@@ -17,12 +17,13 @@ website:
       # - text: Tidy Tuesday
       #   href: tidy_tuesday.qmd
       - text: Resume
-        href: files/Jesus_Rodriguez_graduate_school_resume.pdf
+        href: graduate_school_resume.qmd
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
       - icon: github
         href: https://github.com/jesusrod44/portfolio
+
 format:
   html:
     theme: cosmo

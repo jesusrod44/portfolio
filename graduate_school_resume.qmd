@@ -1,0 +1,410 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertine
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{libertine}
+        \usepackage{hyperref} % load hyperref last
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original
+        \setlength{\columnsep}{3em}
+        % Hyperref link colors and file links
+        \hypersetup{
+          colorlinks=true,
+          linkcolor=blue,
+          filecolor=blue,
+          urlcolor=blue,
+          runcolor=blue
+        }
+    header-includes:
+      - \usepackage{enumitem}
+      - \setlist[itemize]{noitemsep, topsep=0pt, left=0pt}
+---
+
+```{r, echo = F, output = F, message = F, warning = F}
+library(lubridate)
+
+# Function to compute time worked
+
+daterange <- function(start_str, end_str = "Present") {
+months_map <- c(Jan=1, Feb=2, Mar=3, Apr=4, May=5, Jun=6,
+Jul=7, Aug=8, Sep=9, Oct=10, Nov=11, Dec=12)
+
+start_parts <- unlist(strsplit(start_str, " "))
+sm <- months_map[start_parts[1]]
+sy <- as.numeric(start_parts[2])
+start_date <- ymd(sprintf("%04d-%02d-01", sy, sm))
+
+if (tolower(end_str) == "present") {
+end_date <- today()
+} else {
+end_parts <- unlist(strsplit(end_str, " "))
+em <- months_map[end_parts[1]]
+ey <- as.numeric(end_parts[2])
+end_date <- ymd(sprintf("%04d-%02d-01", ey, em))
+}
+
+total_months <- interval(start_date, end_date) %/% months(1)
+years <- total_months %/% 12
+months <- total_months %% 12
+
+if (years > 0 && months > 0) {
+sprintf("(%d yr %d mth)", years, months)
+} else if (years > 0) {
+sprintf("(%d yr)", years)
+} else {
+sprintf("(%d mth)", months)
+}
+}
+```
+
+<!-- TITLE -->
+
+\begin{huge}\begin{center}{\bf JESUS RODRIGUEZ}\end{center}\end{huge}
+
+<!-- CONTACT INFO -->
+
+\begin{center}jrodriguezb44@gmail.com ∙ 
+\href{https://www.linkedin.com/in/jesus-rodriguez-09ab12178}{LinkedIn} ∙
+\href{https://jesusrod44.github.io/portfolio}{Personal Website} ∙
+York, NE
+\end{center}
+\vspace{3.5pt}
+
+<!-- EDUCATION: 1ST BULLET -->
+
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Nebraska-Lincoln (UNL)}\end{flushleft}
+    \begin{flushright}Graduation Date-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Bachelor's in Statistics and Data Analytics\end{flushleft}
+    \begin{flushright}Lincoln, NE\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Minor in Mathematics\end{flushleft}
+  \end{multicols}
+\end{large}
+
+\vspace{0.05cm}
+
+<!-- RELEVANT EXPERIENCE : 1ST BULLET-->
+
+\begin{large}{\bf RELEVANT EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://statistics.unl.edu}{UNL Department of Statistics}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("Aug 2025", "Present")`\end{small}
+    Aug 2025-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Teaching Assistant}\end{flushleft}
+    \begin{flushright}Lincoln, NE\end{flushright}\end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Intro to Mathematical Statistics I - Distribution Theory:**
+
+    -   Lead weekly recitation sessions to reinforce lecture material and guide students through complex statistical problems
+    -   Hold office hours to provide individualized support, answer student questions, and clarify challenging concepts
+
+\vspace{3pt}
+
+<!-- RELEVANT EXPERIENCE : 2ND BULLET -->
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://globalcareeraccelerator.org}{The Global Career Accelerator}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("Jan 2025", "Present")`\end{small}
+    Jan 2025-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Analyst and Coding for Data Intern}\end
+    {flushleft}\begin{flushright}Remote\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Fall 2025 (SQL and Python):**
+
+    -   Conduct data analysis using SQL and Python to extract, filter, and manipulate large datasets
+    -   Collaborate with a cross-functional, global team to complete analysis tasks
+
+-   **Spring 2025 (Excel and Tableau):**
+
+    -   Analyzed A/B tests to measure understanding of trends and audience behavior for The Recording Academy in Excel using pivot tables and logical functions such as Xlookup; demonstrated that a website split improved engagement
+
+    -   Told a story with data by generating visualizations for Intel's Sustainability team in Tableau utilizing charts and dashboards
+
+\vspace{3pt}
+
+<!-- RELEVANT EXPERIENCE : 3RD BULLET -->
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.utmb.edu/spph/department/of-biostatistics-data-science/programs-training/summer-institute}{University of Texas-Medical Branch (UTMB)}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("May 2025", "Jul 2025")`\end{small}
+    June 2025-July 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Biostatistics and Data Science Summer Intern}\end{flushleft}
+    \begin{flushright}Galveston, TX\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+-   Cooperated with biostatisticians, principal investigators, and doctoral researchers to examine clinical burn patient data from \href{https://trinetx.com}{TriNetX} to better treat burn survivors; ultimately ran a chi-square analysis in R to find an association between patient age and burn size for certain outcomes
+-   Coded a folder scraping function to extract prevalence test results from over 22,000 CSV files downloaded from TriNetX and manipulated the results for a proper analysis
+-   Presented research analysis findings, translating statistical tables and charts into clear, actionable insights for both technical and non-technical audiences
+-   Documented data, methodologies, and interpretation of findings to help author research manuscripts
+
+\vspace{3pt}
+
+<!-- OTHER WORK EXPERIENCE : 1ST BULLET -->
+
+\begin{large}{\bf OTHER WORK EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://www.yorkanimalclinic.com}{York Animal Clinic}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("May 2018", "Present")`\end{small}
+    May 2018-Present\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Veterinary Assistant}\end
+    {flushleft}\begin{flushright}York, NE\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+-   Communicate and partner effectively with veterinarians and veterinary technicians to guarantee thorough understanding of patients' needs
+-   Adapt quickly to changing priorities, work efficiently under pressure, and collaborate with team members to provide ample care and compassion to both patients and clients
+-   Support veterinarians during house calls by organizing equipment and managing livestock handling to prevent incidents, allowing the veterinarian to focus fully on patient care and ensuring visits run smoothly
+
+\vspace{3pt}
+
+<!-- SKILLS -->
+
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+
+**Technical** - Statistical modeling (linear/logistic regression, ANOVA), experimental design, power analysis, data management (dplyr, pandas), data visualization (ggplot2, matplotlib), reproducible reporting (Quarto, R Markdown), version control (Git/GitHub), database querying (SQL), webscraping (rvest, APIs, JSON to tabular transformation, PDF data extraction), functional programming (purrr)
+
+<!-- **Interpersonal** - Communication, Collaboration, Adaptability, Detail-oriented, Problem-solving --->
+
+**Languages and Tools** - *expert:* R *proficient:* SAS, Excel, Tableau, Quarto *intermediate:* SQL, Python, Git/Github *beginner:* Shiny
+
+<!-- **Selected Coursework** - Principles of Statistical Design I & II, Principles of Statistical Analysis, Statistical Computing in R and Python I & II, Statistical Modeling I & II, Analysis of Messy Data, Technical Statistician Skills, Regression Analysis, Calculus I, II, & III, Linear Algebra, Differential Equations -->
+
+\vspace{3pt}
+
+\clearpage
+
+<!-- INVOLVEMENT : 1ST BULLET -->
+
+\begin{large}{\bf CONSULTANT TRAINING \& EXPERIENCE}
+  \vspace{3pt}
+  \hrule  
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://statistics.unl.edu/sc3lhelp-desk}{Statistical Cross-disciplinary Collaboration \& Consulting Lab}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("Aug 2024", "May 2025")`\end{small}
+    Aug 2024-May 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{R and SAS Trainee and Assistant Consultant}\end
+    {flushleft}\begin{flushright}Lincoln, NE\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Spring 2025 (R and SAS Workshop):**
+
+    -   Participated in a statistical analysis workshop using R and SAS, applying hypothesis testing methods such as t-tests and ANOVA, as well as data wrangling and visualization techniques to datasets
+
+    -   Completed guided exercises analyzing datasets with R and SAS, reinforcing statistical concepts and data visualization
+
+-   **Fall 2024 (Consultant Collaboration):**
+
+    -   Supported two graduate consultants on a client-focused mock experiment on crop survival under drought conditions, assisting with data analysis in SAS and contributing to report writing and presentation development
+
+    -   Scheduled and engaged in client meetings to align progress and goals, while leveraging mentorship from experienced consultants to strengthen project outcomes
+
+\vspace{3pt}
+
+<!-- SELECETED PROJECTS : 1ST BULLET -->
+
+\begin{large}{\bf SELECTED DATA ANALYSIS PROJECTS}
+  \vspace{3pt}
+  \hrule   
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://youtu.be/TDWX9ugJZIY}{ClincalTrials.gov Cluster Headache Visualization}}
+  \end{flushleft}
+    \begin{flushright}
+    November 2025\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **List Processing, Data Visualization, and Shiny App Development in R**
+    -   Retrieved and parsed clinical trial data using the \href{https://clinicaltrials.gov/data-api/api}{ClinicalTrials.gov API}
+    -   Transformed JSON responses into tidy, analysis ready data frames
+
+\vspace{3pt}
+
+<!-- SELECTED PROJECTS : 2nd BULLET -->
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textit{\href{https://jesusrod44.github.io/portfolio/images/UTMB_poster.jpg}{A Real World Evaluation of Chronic Outcomes by Burn Size and Age}}
+    \end{flushleft}
+    \begin{flushright}
+    July 2025\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Analysis in R and Poster Presentation:**
+    -   Analyzed 22,000 CSV files from TriNetX, containing results from an outcome-prevalence test
+    -   Wrangled raw data into neatly organized and presentable tables
+    -   Showcased findings to other biostatisticians, principal investigators, and medical students
+
+\vspace{3pt}
+
+
+<!-- SELECETED PROJECTS : 3rd BULLET -->
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://jesusrod44.github.io/portfolio/files/sharknados.pdf}{(Over)Analysis of Imminent Sharknados}}
+  \end{flushleft}
+    \begin{flushright}
+      May 2025
+    \end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+
+-   **Analysis in R, Research Report, Presentation:**
+    -   Scraped tornado weather data, shark population data, as well as spatial coastal data from online sources to determine how likely a "sharknado" would occur
+    -   Recorded methods and results in Quarto to document findings, visualizations, and assumptions
+    -   Composed a \href{https://jesusrod44.github.io/portfolio/files/sharknado_presentation.pdf}{presentation} to address conclusions of the analysis
+
+
+\vspace{3pt}
+
+<!-- SELECETED PROJECTS : 4th BULLET -->
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://youtu.be/pn6putf4HHc}{Screencast - Ramen Popularity Analysis}}
+  \end{flushleft}
+    \begin{flushright}
+    May 2024\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Analysis in R**
+    -   Analyzed ratings of global ramen brands in order to determine which country had the highest average rated ramen
+    -   Created graphs and maps of most and least rated brands and flavors
+
+<!-- NOTABLE COURSEWORK -->
+
+\begin{large}{\bf NOTABLE COURSEWORK}
+  \vspace{3pt}
+  \hrule  
+  \begin{multicols}{1}
+    \begin{flushleft}\textit{Statistical Methods \& Design}
+    \end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Principles of Statistical Analysis -** Applied statistical inference, hypothesis testing, and model assessment in datasets
+
+-   **Principles of Statistical Design I & II -** Designed and evaluated experimental studies using randomized, block, and factorial designs
+
+-   **Statistical Modeling I & II -** Built and interpreted generalized linear models, mixed models, and multivariate techniques for complex data
+
+-   **Regression Analysis -** Modeled relationships between variables using simple, multiple, and logistic regression techniques
+
+\begin{large}
+\begin{multicols}{1}
+  \begin{flushleft}\textit{Statistical Computing \& Professional Skills}
+    \end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Statistical Computing in R and Python I, II, & III -** Developed programming skills for data cleaning, visualization, and webscraping using R and Python
+
+-   **Analysis of Messy Data -** Applied modern statistical methods to handle missing data, outliers, and multivariate techiques for complex data
+
+-   **Technical Statistician Skills -** Strengethend professional skills in data communications, teamwork, reproducible research, and technical writing
+
+-   **Statistical Collaboration -** Sharpened skills needed to consult effectively as a statistician
+
+\begin{large}
+\begin{multicols}{1}
+    \begin{flushleft}\textit{Mathematical Foundations}
+    \end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+-   **Calculus I, II, & III -** Mastered concepts in limits, derivatives, integrals, multivariable calculus, and vector calculus
+
+-   **Linear Algebra -** Applied matrix operations, eigenvalues, and linear transformations to systems of equations and data analysis
+
+-   **Differential Equations -** Solved and interpreted ordinary differential equations
+
+\vspace{3pt}
+
+
