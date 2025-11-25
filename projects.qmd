@@ -57,6 +57,8 @@
 :::::: columns
 ::: {.column width="55%"}
 During my internship at UTMB's Summer Institute of Biostatistics and Data Science, I collaborated with fellow intern Thomas Duong and worked with Principal Investigator Dr. Celeste Finnerty PhD and her clinical team, as well as Biostatistician Dr. Heidi Spratt PhD analyzing de-indentified burn survivor medical records from global healthcare database TriNetX.
+
+[Watch my brief video talking about my exerience and work here!](https://youtu.be/dCCRvg9enWI?list=PLmqrqKcpbpaPX-y6WT6skqkKpc1pyhxVB){target="_blank"}
 :::
 
 ::: {.column width="5%"}
