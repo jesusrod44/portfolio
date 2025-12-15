@@ -114,8 +114,8 @@ York, NE
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://statistics.unl.edu}{UNL Department of Statistics}}\end{flushleft}
     \begin{flushright}
-    \begin{small}`r daterange("Aug 2025", "Present")`\end{small}
-    Aug 2025-Present\end{flushright}
+    \begin{small}`r daterange("Jul 2025", "Dec 2025")`\end{small}
+    Aug 2025-Dec 2025\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
@@ -126,8 +126,8 @@ York, NE
 
 -   **Intro to Mathematical Statistics I - Distribution Theory:**
 
-    -   Lead weekly recitation sessions to reinforce lecture material and guide students through complex statistical problems
-    -   Hold office hours to provide individualized support, answer student questions, and clarify challenging concepts
+    -   Led weekly recitation sessions to reinforce lecture material and guide students through complex statistical problems
+    -   Held office hours to provide individualized support, answer student questions, and clarify challenging concepts
 
 \vspace{3pt}
 
@@ -137,8 +137,8 @@ York, NE
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://globalcareeraccelerator.org}{The Global Career Accelerator}}\end{flushleft}
     \begin{flushright}
-    \begin{small}`r daterange("Jan 2025", "Present")`\end{small}
-    Jan 2025-Present\end{flushright}
+    \begin{small}`r daterange("Dec 2024", "Dec 2025")`\end{small}
+    Jan 2025-Dec 2025\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
@@ -151,8 +151,8 @@ York, NE
 
 -   **Fall 2025 (SQL and Python):**
 
-    -   Conduct data analysis using SQL and Python to extract, filter, and manipulate large datasets
-    -   Collaborate with a cross-functional, global team to complete analysis tasks
+    -   Conducted data analysis using SQL and Python to extract, filter, and manipulate large datasets
+    -   Collaborated with a cross-functional, global team to complete analysis tasks
 
 -   **Spring 2025 (Excel and Tableau):**
 
