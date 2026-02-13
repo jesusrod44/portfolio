@@ -196,7 +196,7 @@ York, NE
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{http://www.yorkanimalclinic.com}{York Animal Clinic}}\end{flushleft}
     \begin{flushright}
-    \begin{small}`r daterange("May 2018", "Present")`\end{small}
+    \begin{small}`r daterange("May 2018", "Dec 2025")`\end{small}
     May 2018-Present\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
@@ -242,7 +242,7 @@ York, NE
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://statistics.unl.edu/sc3lhelp-desk}{Statistical Cross-disciplinary Collaboration \& Consulting Lab}}\end{flushleft}
     \begin{flushright}
-    \begin{small}`r daterange("Aug 2024", "May 2025")`\end{small}
+    \begin{small}`r daterange("Jul 2024", "May 2025")`\end{small}
     Aug 2024-May 2025\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
