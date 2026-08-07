@@ -106,11 +106,32 @@ York, NE
 
 \vspace{0.05cm}
 
-<!-- RELEVANT EXPERIENCE : 1ST BULLET-->
+<!-- RELEVANT EXPERIENCE : 1ST BULLET -->
 
 \begin{large}{\bf RELEVANT EXPERIENCE}
   \vspace{3pt}
   \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://lasbest.usc.edu}{University of Southern California}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}`r daterange("Jun 2026", "Jul 2026")`\end{small}
+    June 2026-July 2026\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Biostatistical Intern}\end{flushleft}
+    \begin{flushright}Los Angeles, CA\end{flushright}\end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+  - Performed a landmark analysis with competing risks on subsetted United Network for Organ Sharing data on heart transplant candidates
+  - Applied cause-specific Cox, Fine-Gray, and direct binomial regression models to analyze competing risks, showing that candidates with urgent priority escalation had lower mortality and higher transplantation rates
+  
+\vspace{3pt}
+
+<!-- RELEVANT EXPERIENCE : 2nd BULLET-->
+
+\begin{large}
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://statistics.unl.edu}{UNL Department of Statistics}}\end{flushleft}
     \begin{flushright}
@@ -124,10 +145,10 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Intro to Mathematical Statistics I - Distribution Theory:**
+- **Intro to Mathematical Statistics I - Distribution Theory:**
 
-    -   Led weekly recitation sessions to reinforce lecture material and guide students through complex statistical problems
-    -   Held office hours to provide individualized support, answer student questions, and clarify challenging concepts
+  - Led weekly recitation sessions to reinforce lecture material and guide students through complex statistical problems
+  - Held office hours to provide individualized support, answer student questions, and clarify challenging concepts
 
 \vspace{3pt}
 
@@ -149,16 +170,16 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Fall 2025 (SQL and Python):**
+- **Fall 2025 (SQL and Python):**
 
-    -   Conducted data analysis using SQL and Python to extract, filter, and manipulate large datasets
-    -   Collaborated with a cross-functional, global team to complete analysis tasks
+  - Conducted data analysis using SQL and Python to extract, filter, and manipulate large datasets
+  - Collaborated with a cross-functional, global team to complete analysis tasks
 
--   **Spring 2025 (Excel and Tableau):**
+- **Spring 2025 (Excel and Tableau):**
 
-    -   Analyzed A/B tests to measure understanding of trends and audience behavior for The Recording Academy in Excel using pivot tables and logical functions such as Xlookup; demonstrated that a website split improved engagement
+  - Analyzed A/B tests to measure understanding of trends and audience behavior for The Recording Academy in Excel using pivot tables and logical functions such as Xlookup; demonstrated that a website split improved engagement
 
-    -   Told a story with data by generating visualizations for Intel's Sustainability team in Tableau utilizing charts and dashboards
+  - Told a story with data by generating visualizations for Intel's Sustainability team in Tableau utilizing charts and dashboards
 
 \vspace{3pt}
 
@@ -181,10 +202,9 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   Cooperated with biostatisticians, principal investigators, and doctoral researchers to examine clinical burn patient data from \href{https://trinetx.com}{TriNetX} to better treat burn survivors; ultimately ran a chi-square analysis in R to find an association between patient age and burn size for certain outcomes
--   Coded a folder scraping function to extract prevalence test results from over 22,000 CSV files downloaded from TriNetX and manipulated the results for a proper analysis
--   Presented research analysis findings, translating statistical tables and charts into clear, actionable insights for both technical and non-technical audiences
--   Documented data, methodologies, and interpretation of findings to help author research manuscripts
+- Cooperated with biostatisticians, principal investigators, and doctoral researchers to examine clinical burn patient data from \href{https://trinetx.com}{TriNetX} to better treat burn survivors; ultimately ran a chi-square analysis in R to find an association between patient age and burn size for certain outcomes
+- Coded a folder scraping function to extract prevalence test results from over 22,000 CSV files downloaded from TriNetX and manipulated the results for a proper analysis
+- Presented research analysis findings, translating statistical tables and charts into clear, actionable insights for both technical and non-technical audiences
 
 \vspace{3pt}
 
@@ -208,9 +228,9 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   Communicate and partner effectively with veterinarians and veterinary technicians to guarantee thorough understanding of patients' needs
--   Adapt quickly to changing priorities, work efficiently under pressure, and collaborate with team members to provide ample care and compassion to both patients and clients
--   Support veterinarians during house calls by organizing equipment and managing livestock handling to prevent incidents, allowing the veterinarian to focus fully on patient care and ensuring visits run smoothly
+- Communicate and partner effectively with veterinarians and veterinary technicians to guarantee thorough understanding of patients' needs
+- Adapt quickly to changing priorities, work efficiently under pressure, and collaborate with team members to provide ample care and compassion to both patients and clients
+- Support veterinarians during house calls by organizing equipment and managing livestock handling to prevent incidents, allowing the veterinarian to focus fully on patient care and ensuring visits run smoothly
 
 \vspace{3pt}
 
@@ -254,17 +274,17 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Spring 2025 (R and SAS Workshop):**
+- **Spring 2025 (R and SAS Workshop):**
 
-    -   Participated in a statistical analysis workshop using R and SAS, applying hypothesis testing methods such as t-tests and ANOVA, as well as data wrangling and visualization techniques to datasets
+  - Participated in a statistical analysis workshop using R and SAS, applying hypothesis testing methods such as t-tests and ANOVA, as well as data wrangling and visualization techniques to datasets
 
-    -   Completed guided exercises analyzing datasets with R and SAS, reinforcing statistical concepts and data visualization
+  - Completed guided exercises analyzing datasets with R and SAS, reinforcing statistical concepts and data visualization
 
--   **Fall 2024 (Consultant Collaboration):**
+- **Fall 2024 (Consultant Collaboration):**
 
-    -   Supported two graduate consultants on a client-focused mock experiment on crop survival under drought conditions, assisting with data analysis in SAS and contributing to report writing and presentation development
+  - Supported two graduate consultants on a client-focused mock experiment on crop survival under drought conditions, assisting with data analysis in SAS and contributing to report writing and presentation development
 
-    -   Scheduled and engaged in client meetings to align progress and goals, while leveraging mentorship from experienced consultants to strengthen project outcomes
+  - Scheduled and engaged in client meetings to align progress and goals, while leveraging mentorship from experienced consultants to strengthen project outcomes
 
 \vspace{3pt}
 
@@ -284,9 +304,9 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **List Processing, Data Visualization, and Shiny App Development in R**
-    -   Retrieved and parsed clinical trial data using the \href{https://clinicaltrials.gov/data-api/api}{ClinicalTrials.gov API}
-    -   Transformed JSON responses into tidy, analysis ready data frames
+- **List Processing, Data Visualization, and Shiny App Development in R**
+  - Retrieved and parsed clinical trial data using the \href{https://clinicaltrials.gov/data-api/api}{ClinicalTrials.gov API}
+  - Transformed JSON responses into tidy, analysis ready data frames
 
 \vspace{3pt}
 
@@ -304,10 +324,10 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Analysis in R and Poster Presentation:**
-    -   Analyzed 22,000 CSV files from TriNetX, containing results from an outcome-prevalence test
-    -   Wrangled raw data into neatly organized and presentable tables
-    -   Showcased findings to other biostatisticians, principal investigators, and medical students
+- **Analysis in R and Poster Presentation:**
+  - Analyzed 22,000 CSV files from TriNetX, containing results from an outcome-prevalence test
+  - Wrangled raw data into neatly organized and presentable tables
+  - Showcased findings to other biostatisticians, principal investigators, and medical students
 
 \vspace{3pt}
 
@@ -326,10 +346,10 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Analysis in R, Research Report, Presentation:**
-    -   Scraped tornado weather data, shark population data, as well as spatial coastal data from online sources to determine how likely a "sharknado" would occur
-    -   Recorded methods and results in Quarto to document findings, visualizations, and assumptions
-    -   Composed a \href{https://jesusrod44.github.io/portfolio/files/sharknado_presentation.pdf}{presentation} to address conclusions of the analysis
+- **Analysis in R, Research Report, Presentation:**
+  - Scraped tornado weather data, shark population data, as well as spatial coastal data from online sources to determine how likely a "sharknado" would occur
+  - Recorded methods and results in Quarto to document findings, visualizations, and assumptions
+  - Composed a \href{https://jesusrod44.github.io/portfolio/files/sharknado_presentation.pdf}{presentation} to address conclusions of the analysis
 
 \vspace{3pt}
 
@@ -347,9 +367,9 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Analysis in R**
-    -   Analyzed ratings of global ramen brands in order to determine which country had the highest average rated ramen
-    -   Created graphs and maps of most and least rated brands and flavors
+- **Analysis in R**
+  - Analyzed ratings of global ramen brands in order to determine which country had the highest average rated ramen
+  - Created graphs and maps of most and least rated brands and flavors
 
 <!-- NOTABLE COURSEWORK -->
 
@@ -364,13 +384,13 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Principles of Statistical Analysis -** Applied statistical inference, hypothesis testing, and model assessment in datasets
+- **Principles of Statistical Analysis -** Applied statistical inference, hypothesis testing, and model assessment in datasets
 
--   **Principles of Statistical Design I & II -** Designed and evaluated experimental studies using randomized, block, and factorial designs
+- **Principles of Statistical Design I & II -** Designed and evaluated experimental studies using randomized, block, and factorial designs
 
--   **Statistical Modeling I & II -** Built and interpreted generalized linear models, mixed models, and multivariate techniques for complex data
+- **Statistical Modeling I & II -** Built and interpreted generalized linear models, mixed models, and multivariate techniques for complex data
 
--   **Regression Analysis -** Modeled relationships between variables using simple, multiple, and logistic regression techniques
+- **Regression Analysis -** Modeled relationships between variables using simple, multiple, and logistic regression techniques
 
 \begin{large}
 \begin{multicols}{1}
@@ -381,13 +401,13 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Statistical Computing in R and Python I, II, & III -** Developed programming skills for data cleaning, visualization, and webscraping using R and Python
+- **Statistical Computing in R and Python I, II, & III -** Developed programming skills for data cleaning, visualization, and webscraping using R and Python
 
--   **Analysis of Messy Data -** Applied modern statistical methods to handle missing data, outliers, and multivariate techiques for complex data
+- **Analysis of Messy Data -** Applied modern statistical methods to handle missing data, outliers, and multivariate techiques for complex data
 
--   **Technical Statistician Skills -** Strengethend professional skills in data communications, teamwork, reproducible research, and technical writing
+- **Technical Statistician Skills -** Strengethend professional skills in data communications, teamwork, reproducible research, and technical writing
 
--   **Statistical Collaboration -** Sharpened skills needed to consult effectively as a statistician
+- **Statistical Collaboration -** Sharpened skills needed to consult effectively as a statistician
 
 \begin{large}
 \begin{multicols}{1}
@@ -398,10 +418,10 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
--   **Calculus I, II, & III -** Mastered concepts in limits, derivatives, integrals, multivariable calculus, and vector calculus
+- **Calculus I, II, & III -** Mastered concepts in limits, derivatives, integrals, multivariable calculus, and vector calculus
 
--   **Linear Algebra -** Applied matrix operations, eigenvalues, and linear transformations to systems of equations and data analysis
+- **Linear Algebra -** Applied matrix operations, eigenvalues, and linear transformations to systems of equations and data analysis
 
--   **Differential Equations -** Solved and interpreted ordinary differential equations
+- **Differential Equations -** Solved and interpreted ordinary differential equations
 
 \vspace{3pt}
