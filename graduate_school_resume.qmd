@@ -320,7 +320,7 @@ Galveston, TX
 
 - **Competing Risks Survival Analysis with Landmark Methods in R**
   - Modeled death and transplant outcomes among stable vs. escalated heart transplant candidates
-  - Communicated \href{https://jesusrod44.github.io/portfolio/files/labestposter.pdf}{findings} and differences of each models interpretability to nontechnical audiences through clear explanations and polished visualizations and tables
+  - Communicated \href{https://jesusrod44.github.io/portfolio/files/PosterLA.pdf}{findings} and differences of each models interpretability to nontechnical audiences through clear explanations and polished visualizations and tables
 
 \vspace{3pt}
 
