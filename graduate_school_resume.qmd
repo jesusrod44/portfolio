@@ -90,21 +90,35 @@ York, NE
   \vspace{3pt}
   \hrule
   \begin{multicols}{2}
-    \begin{flushleft}{\bf University of Nebraska-Lincoln (UNL)}\end{flushleft}
-    \begin{flushright}Graduation Date-Dec 2025\end{flushright}
+    \begin{flushleft}{\bf University of Texas-Medical Branch (UTMB)}\end{flushleft}
+    \begin{flushright}Expected Graduation Date-Dec 2027\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}Bachelor's in Statistics and Data Analytics\end{flushleft}
+    \begin{flushleft}MS, Biostatistics\end{flushleft}
+    \begin{flushright}Galveston, TX\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+
+\vspace{3pt}
+
+\begin{large}
+  \vspace{3pt}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Nebraska-Lincoln (UNL)}\end{flushleft}
+    \begin{flushright}Aug 2021-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}BS, Statistics and Data Analytics\end{flushleft}
     \begin{flushright}Lincoln, NE\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}Minor in Mathematics\end{flushleft}
+    \begin{flushleft}Minor, Mathematics\end{flushleft}
   \end{multicols}
 \end{large}
-
-\vspace{0.05cm}
 
 <!-- RELEVANT EXPERIENCE : 1ST BULLET -->
 
@@ -242,7 +256,7 @@ York, NE
 \end{large}
 \vspace{-0.16cm}
 
-**Technical** - Statistical modeling (linear/logistic regression, ANOVA), experimental design, power analysis, data management (dplyr, pandas), data visualization (ggplot2, matplotlib), reproducible reporting (Quarto, R Markdown), version control (Git/GitHub), database querying (SQL), webscraping (rvest, APIs, JSON to tabular transformation, PDF data extraction), functional programming (purrr)
+**Technical** - Statistical modeling (linear/logistic regression, ANOVA), power analysis, data management (dplyr, pandas), data visualization (ggplot2, matplotlib), reproducible reporting (Quarto, R Markdown), version control (Git/GitHub), database querying (SQL), webscraping (rvest, APIs, JSON to tabular transformation, PDF data extraction), functional programming (purrr)
 
 <!-- **Interpersonal** - Communication, Collaboration, Adaptability, Detail-oriented, Problem-solving --->
 
@@ -293,6 +307,26 @@ York, NE
 \begin{large}{\bf SELECTED DATA ANALYSIS PROJECTS}
   \vspace{3pt}
   \hrule   
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://vimeo.com/reviews/3c2baaba-72f5-45e4-a2a8-455757f4b1d8/videos/1203908829}{Competing Risks Analysis on Heart Transplant Data}}
+  \end{flushleft}
+    \begin{flushright}
+    July 2026\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+- **Competing Risks Survival Analysis with Landmark Methods in R**
+  - Modeled death and transplant outcomes among stable vs. escalated heart transplant candidates
+  - Communicated \href{https://jesusrod44.github.io/portfolio/files/labestposter.pdf}{findings} and differences of each models interpretability to nontechnical audiences through clear explanations and polished visualizations and tables
+
+\vspace{3pt}
+
+<!-- SELECTED PROJECTS : 2ND BULLET -->
+
+\begin{large}
   \begin{multicols}{2}
     \begin{flushleft}
   \textit{\href{https://youtu.be/TDWX9ugJZIY}{ClincalTrials.gov Cluster Headache Visualization}}
@@ -355,21 +389,21 @@ York, NE
 
 <!-- SELECETED PROJECTS : 4th BULLET -->
 
-\begin{large}
-  \begin{multicols}{2}
-    \begin{flushleft}
-  \textit{\href{https://youtu.be/pn6putf4HHc}{Screencast - Ramen Popularity Analysis}}
-  \end{flushleft}
-    \begin{flushright}
-    May 2024\end{flushright}
-    \end{multicols}
-  \vspace{-0.17cm}
-\end{large}
-\vspace{-0.16cm}
+<!-- \begin{large} -->
+<!--   \begin{multicols}{2} -->
+<!--     \begin{flushleft} -->
+<!--   \textit{\href{https://youtu.be/pn6putf4HHc}{Screencast - Ramen Popularity Analysis}} -->
+<!--   \end{flushleft} -->
+<!--     \begin{flushright} -->
+<!--     May 2024\end{flushright} -->
+<!--     \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- \vspace{-0.16cm} -->
 
-- **Analysis in R**
-  - Analyzed ratings of global ramen brands in order to determine which country had the highest average rated ramen
-  - Created graphs and maps of most and least rated brands and flavors
+<!-- - **Analysis in R** -->
+<!--   - Analyzed ratings of global ramen brands in order to determine which country had the highest average rated ramen -->
+<!--   - Created graphs and maps of most and least rated brands and flavors -->
 
 <!-- NOTABLE COURSEWORK -->
 
@@ -386,11 +420,11 @@ York, NE
 
 - **Principles of Statistical Analysis -** Applied statistical inference, hypothesis testing, and model assessment in datasets
 
-- **Principles of Statistical Design I & II -** Designed and evaluated experimental studies using randomized, block, and factorial designs
+- **Principles of Statistical Design I & II -** Evaluated experimental studies using randomized, block, and factorial designs
 
 - **Statistical Modeling I & II -** Built and interpreted generalized linear models, mixed models, and multivariate techniques for complex data
 
-- **Regression Analysis -** Modeled relationships between variables using simple, multiple, and logistic regression techniques
+- **Regression Analysis -** Modeled relationships between variables using linear, multiple, and logistic regression techniques
 
 \begin{large}
 \begin{multicols}{1}
@@ -405,23 +439,23 @@ York, NE
 
 - **Analysis of Messy Data -** Applied modern statistical methods to handle missing data, outliers, and multivariate techiques for complex data
 
-- **Technical Statistician Skills -** Strengethend professional skills in data communications, teamwork, reproducible research, and technical writing
+- **Technical Statistician Skills -** Strengthened professional skills in data communications, teamwork, reproducible research, and technical writing
 
 - **Statistical Collaboration -** Sharpened skills needed to consult effectively as a statistician
 
-\begin{large}
-\begin{multicols}{1}
-    \begin{flushleft}\textit{Mathematical Foundations}
-    \end{flushleft}
-  \end{multicols}
-  \vspace{-0.17cm}
-\end{large}
-\vspace{-0.16cm}
+<!-- \begin{large} -->
+<!-- \begin{multicols}{1} -->
+<!--     \begin{flushleft}\textit{Mathematical Foundations} -->
+<!--     \end{flushleft} -->
+<!--   \end{multicols} -->
+<!--   \vspace{-0.17cm} -->
+<!-- \end{large} -->
+<!-- \vspace{-0.16cm} -->
 
-- **Calculus I, II, & III -** Mastered concepts in limits, derivatives, integrals, multivariable calculus, and vector calculus
+<!-- - **Calculus I, II, & III -** Mastered concepts in limits, derivatives, integrals, multivariable calculus, and vector calculus -->
 
-- **Linear Algebra -** Applied matrix operations, eigenvalues, and linear transformations to systems of equations and data analysis
+<!-- - **Linear Algebra -** Applied matrix operations, eigenvalues, and linear transformations to systems of equations -->
 
-- **Differential Equations -** Solved and interpreted ordinary differential equations
+<!-- - **Differential Equations -** Solved and interpreted ordinary differential equations -->
 
-\vspace{3pt}
+<!-- \vspace{3pt} -->
