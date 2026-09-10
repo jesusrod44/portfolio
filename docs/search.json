@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jesus Rodriguez",
+    "section": "",
+    "text": "MS student in Biostatistics and Data Science at UTMB with a BS in Statistics and Data Analytics and a minor in Mathematics from UNL. Experienced in R, SAS, Python, and Excel, with a strong interest in applying statistical methods to healthcare research. Collaborative, adaptable, and committed to translating complex data into clear, actionable insights.\nWhen I am not working with data, you can usually find me walking along Galveston’s beaches, birding, or staying active."
+  },
+  {
     "objectID": "tidy_tuesday.html",
     "href": "tidy_tuesday.html",
     "title": "Tidy Tuesday Projects",
@@ -33,13 +40,6 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jesus Rodriguez",
-    "section": "",
-    "text": "I am a Senior at UNL graduating in December of 2025 with a Bachelor’s Degree in Statistics and Data Analytics and a Minor in Mathematics. As an aspiring Biostatistician, I am passionate about turning data into actionable insights to drive informed decision-making. I find it rewarding to take a messy dataset, organize it, and transform it into meaningful analyses that reveal valuable insights.\nI love to perform analysis in R, SAS, Python, and Excel, but I am also eager to expand my data analysis skills and knowledge so I can push myself to assist the best way I can. My collaborative experience has equipped me to thrive in diverse team settings, and I am excited to apply my technical abilities and problem-solving mindset to create impactful data solutions within a dynamic, adaptable team."
   },
   {
     "objectID": "posts/post-with-code/index.html",

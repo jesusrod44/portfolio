@@ -21,8 +21,8 @@ website:
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/jesus-rodriguez-09ab12178
-      - icon: github
-        href: https://github.com/jesusrod44/portfolio
+      # - icon: github
+      #   href: https://github.com/jesusrod44/portfolio
 
 format:
   html:
