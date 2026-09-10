@@ -79,7 +79,7 @@ sprintf("(%d mth)", months)
 \begin{center}jrodriguezb44@gmail.com ∙ 
 \href{https://www.linkedin.com/in/jesus-rodriguez-09ab12178}{LinkedIn} ∙
 \href{https://jesusrod44.github.io/portfolio}{Personal Website} ∙
-York, NE
+Galveston, TX
 \end{center}
 \vspace{3.5pt}
 
@@ -128,7 +128,7 @@ York, NE
   \begin{multicols}{2}
     \begin{flushleft}{\bf \href{https://lasbest.usc.edu}{University of Southern California}}\end{flushleft}
     \begin{flushright}
-    \begin{small}`r daterange("Jun 2026", "Jul 2026")`\end{small}
+    \begin{small}`r daterange("May 2026", "Jul 2026")`\end{small}
     June 2026-July 2026\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
