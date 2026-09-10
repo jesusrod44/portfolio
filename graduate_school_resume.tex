@@ -1,0 +1,668 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  16,
+]{article}
+\usepackage{xcolor}
+\usepackage[top=10mm,left=15mm,right=15mm,bottom=5mm,heightrounded]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{libertine}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{libertine}
+\usepackage{hyperref} % load hyperref last
+\pagestyle{empty}
+\setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original
+\setlength{\columnsep}{3em}
+% Hyperref link colors and file links
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=blue,
+  urlcolor=blue,
+  runcolor=blue
+}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt, left=0pt}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+\begin{document}
+
+
+\begin{huge}\begin{center}{\bf JESUS RODRIGUEZ}\end{center}\end{huge}
+
+\begin{center}jrodriguezb44@gmail.com ∙ 
+\href{https://www.linkedin.com/in/jesus-rodriguez-09ab12178}{LinkedIn} ∙
+\href{https://jesusrod44.github.io/portfolio}{Personal Website} ∙
+Galveston, TX
+\end{center}
+\vspace{3.5pt}
+
+\begin{large}
+  {\bf EDUCATION}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Texas-Medical Branch (UTMB)}\end{flushleft}
+    \begin{flushright}Expected Graduation Date-Dec 2027\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}MS, Biostatistics\end{flushleft}
+    \begin{flushright}Galveston, TX\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+
+\vspace{3pt}
+
+\begin{large}
+  \vspace{3pt}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Nebraska-Lincoln (UNL)}\end{flushleft}
+    \begin{flushright}Aug 2021-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}BS, Statistics and Data Analytics\end{flushleft}
+    \begin{flushright}Lincoln, NE\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Minor, Mathematics\end{flushleft}
+  \end{multicols}
+\end{large}
+
+\begin{large}{\bf RELEVANT EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://lasbest.usc.edu}{University of Southern California}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(2 mth)\end{small}
+    June 2026-July 2026\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Biostatistical Intern}\end{flushleft}
+    \begin{flushright}Los Angeles, CA\end{flushright}\end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Performed a landmark analysis with competing risks on subsetted United
+  Network for Organ Sharing data on heart transplant candidates
+\item
+  Applied cause-specific Cox, Fine-Gray, and direct binomial regression
+  models to analyze competing risks, showing that candidates with urgent
+  priority escalation had lower mortality and higher transplantation
+  rates
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://statistics.unl.edu}{UNL Department of Statistics}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(5 mth)\end{small}
+    Aug 2025-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Teaching Assistant}\end{flushleft}
+    \begin{flushright}Lincoln, NE\end{flushright}\end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\item
+  \textbf{Intro to Mathematical Statistics I - Distribution Theory:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Led weekly recitation sessions to reinforce lecture material and
+    guide students through complex statistical problems
+  \item
+    Held office hours to provide individualized support, answer student
+    questions, and clarify challenging concepts
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://globalcareeraccelerator.org}{The Global Career Accelerator}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(1 yr)\end{small}
+    Jan 2025-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Data Analyst and Coding for Data Intern}\end
+    {flushleft}\begin{flushright}Remote\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\item
+  \textbf{Fall 2025 (SQL and Python):}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Conducted data analysis using SQL and Python to extract, filter, and
+    manipulate large datasets
+  \item
+    Collaborated with a cross-functional, global team to complete
+    analysis tasks
+  \end{itemize}
+\item
+  \textbf{Spring 2025 (Excel and Tableau):}
+
+  \begin{itemize}
+  \item
+    Analyzed A/B tests to measure understanding of trends and audience
+    behavior for The Recording Academy in Excel using pivot tables and
+    logical functions such as Xlookup; demonstrated that a website split
+    improved engagement
+  \item
+    Told a story with data by generating visualizations for Intel's
+    Sustainability team in Tableau utilizing charts and dashboards
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://www.utmb.edu/spph/department/of-biostatistics-data-science/programs-training/summer-institute}{University of Texas-Medical Branch (UTMB)}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(2 mth)\end{small}
+    June 2025-July 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://youtu.be/dCCRvg9enWI}{Biostatistics and Data Science Summer Intern}}
+  \end{flushleft}
+    \begin{flushright}Galveston, TX\end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Cooperated with biostatisticians, principal investigators, and
+  doctoral researchers to examine clinical burn patient data from
+  \href{https://trinetx.com}{TriNetX} to better treat burn survivors;
+  ultimately ran a chi-square analysis in R to find an association
+  between patient age and burn size for certain outcomes
+\item
+  Coded a folder scraping function to extract prevalence test results
+  from over 22,000 CSV files downloaded from TriNetX and manipulated the
+  results for a proper analysis
+\item
+  Presented research analysis findings, translating statistical tables
+  and charts into clear, actionable insights for both technical and
+  non-technical audiences
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}{\bf OTHER WORK EXPERIENCE}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{http://www.yorkanimalclinic.com}{York Animal Clinic}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(7 yr 7 mth)\end{small}
+    May 2018-Dec 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Veterinary Assistant}\end
+    {flushleft}\begin{flushright}York, NE\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Communicate and partner effectively with veterinarians and veterinary
+  technicians to guarantee thorough understanding of patients' needs
+\item
+  Adapt quickly to changing priorities, work efficiently under pressure,
+  and collaborate with team members to provide ample care and compassion
+  to both patients and clients
+\item
+  Support veterinarians during house calls by organizing equipment and
+  managing livestock handling to prevent incidents, allowing the
+  veterinarian to focus fully on patient care and ensuring visits run
+  smoothly
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}{\bf SKILLS}
+  \vspace{3pt}
+  \hrule
+\end{large}
+\vspace{-0.16cm}
+
+\textbf{Technical} - Statistical modeling (linear/logistic regression,
+ANOVA), power analysis, data management (dplyr, pandas), data
+visualization (ggplot2, matplotlib), reproducible reporting (Quarto, R
+Markdown), version control (Git/GitHub), database querying (SQL),
+webscraping (rvest, APIs, JSON to tabular transformation, PDF data
+extraction), functional programming (purrr)
+
+\textbf{Languages and Tools} - \emph{expert:} R \emph{proficient:} SAS,
+Excel, Tableau, Quarto \emph{intermediate:} SQL, Python, Git/Github
+\emph{beginner:} Shiny
+
+\vspace{3pt}
+
+\clearpage
+
+\begin{large}{\bf CONSULTANT TRAINING \& EXPERIENCE}
+  \vspace{3pt}
+  \hrule  
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf \href{https://statistics.unl.edu/sc3lhelp-desk}{Statistical Cross-disciplinary Collaboration \& Consulting Lab}}\end{flushleft}
+    \begin{flushright}
+    \begin{small}(10 mth)\end{small}
+    Aug 2024-May 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{R and SAS Trainee and Assistant Consultant}\end
+    {flushleft}\begin{flushright}Lincoln, NE\end
+    {flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\item
+  \textbf{Spring 2025 (R and SAS Workshop):}
+
+  \begin{itemize}
+  \item
+    Participated in a statistical analysis workshop using R and SAS,
+    applying hypothesis testing methods such as t-tests and ANOVA, as
+    well as data wrangling and visualization techniques to datasets
+  \item
+    Completed guided exercises analyzing datasets with R and SAS,
+    reinforcing statistical concepts and data visualization
+  \end{itemize}
+\item
+  \textbf{Fall 2024 (Consultant Collaboration):}
+
+  \begin{itemize}
+  \item
+    Supported two graduate consultants on a client-focused mock
+    experiment on crop survival under drought conditions, assisting with
+    data analysis in SAS and contributing to report writing and
+    presentation development
+  \item
+    Scheduled and engaged in client meetings to align progress and
+    goals, while leveraging mentorship from experienced consultants to
+    strengthen project outcomes
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}{\bf SELECTED DATA ANALYSIS PROJECTS}
+  \vspace{3pt}
+  \hrule   
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://vimeo.com/reviews/3c2baaba-72f5-45e4-a2a8-455757f4b1d8/videos/1203908829}{Competing Risks Analysis on Heart Transplant Data}}
+  \end{flushleft}
+    \begin{flushright}
+    July 2026\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Competing Risks Survival Analysis with Landmark Methods in R}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Modeled death and transplant outcomes among stable vs.~escalated
+    heart transplant candidates
+  \item
+    Communicated
+    \href{https://jesusrod44.github.io/portfolio/files/PosterLA.pdf}{findings}
+    and differences in model interpretation through clear explanations
+    and polished visualizations and tables
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://youtu.be/TDWX9ugJZIY}{ClincalTrials.gov Cluster Headache Visualization}}
+  \end{flushleft}
+    \begin{flushright}
+    November 2025\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{List Processing, Data Visualization, and Shiny App Development
+  in R}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Retrieved and parsed clinical trial data using the
+    \href{https://clinicaltrials.gov/data-api/api}{ClinicalTrials.gov API}
+  \item
+    Transformed JSON responses into tidy, analysis ready data frames
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+    \textit{\href{https://jesusrod44.github.io/portfolio/images/UTMB_poster.jpg}{A Real World Evaluation of Chronic Outcomes by Burn Size and Age}}
+    \end{flushleft}
+    \begin{flushright}
+    July 2025\end{flushright}
+    \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Analysis in R and Poster Presentation:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Analyzed 22,000 CSV files from TriNetX, containing results from an
+    outcome-prevalence test
+  \item
+    Wrangled raw data into neatly organized and presentable tables
+  \item
+    Showcased findings to other biostatisticians, principal
+    investigators, and medical students
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}
+  \textit{\href{https://jesusrod44.github.io/portfolio/files/sharknados.pdf}{(Over)Analysis of Imminent Sharknados}}
+  \end{flushleft}
+    \begin{flushright}
+      May 2025
+    \end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Analysis in R, Research Report, Presentation:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Scraped tornado weather data, shark population data, as well as
+    spatial coastal data from online sources to determine how likely a
+    ``sharknado'' would occur
+  \item
+    Recorded methods and results in Quarto to document findings,
+    visualizations, and assumptions
+  \item
+    Composed a
+    \href{https://jesusrod44.github.io/portfolio/files/sharknado_presentation.pdf}{presentation}
+    to address conclusions of the analysis
+  \end{itemize}
+\end{itemize}
+
+\vspace{3pt}
+
+\begin{large}{\bf NOTABLE COURSEWORK}
+  \vspace{3pt}
+  \hrule  
+  \begin{multicols}{1}
+    \begin{flushleft}\textit{Statistical Methods \& Design}
+    \end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\item
+  \textbf{Principles of Statistical Analysis -} Applied statistical
+  inference, hypothesis testing, and model assessment in datasets
+\item
+  \textbf{Principles of Statistical Design I \& II -} Evaluated
+  experimental studies using randomized, block, and factorial designs
+\item
+  \textbf{Statistical Modeling I \& II -} Built and interpreted
+  generalized linear models, mixed models, and multivariate techniques
+  for complex data
+\item
+  \textbf{Regression Analysis -} Modeled relationships between variables
+  using linear, multiple, and logistic regression techniques
+\end{itemize}
+
+\begin{large}
+\begin{multicols}{1}
+  \begin{flushleft}\textit{Statistical Computing \& Professional Skills}
+    \end{flushleft}
+  \end{multicols}
+  \vspace{-0.17cm}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\item
+  \textbf{Statistical Computing in R and Python I, II, \& III -}
+  Developed programming skills for data cleaning, visualization, and
+  webscraping using R and Python
+\item
+  \textbf{Analysis of Messy Data -} Applied modern statistical methods
+  to handle missing data, outliers, and multivariate techiques for
+  complex data
+\item
+  \textbf{Technical Statistician Skills -} Strengthened professional
+  skills in data communications, teamwork, reproducible research, and
+  technical writing
+\item
+  \textbf{Statistical Collaboration -} Sharpened skills needed to
+  consult effectively as a statistician
+\end{itemize}
+
+
+
+
+\end{document}
